@@ -1,34 +1,19 @@
-# gr33n37-ip-changer
+The full process :
 
-Bash script that uses Tor to change your IP at specified intervals.
+1) Copy this Link :
 
-![gp](https://github.com/gr33n37/gr33n37-ip-changer/assets/30112537/34e1c4e2-ec79-4ef3-b0a2-e99eee48bb4b)
+https://github.com/gr33n37/gr33n37-ip-changer
 
-## Installation
+2) Go to Your Virtual Machine
 
-You can either `git clone` the repository or `curl` the Bash script.
+3) Type this cmd : git clone (link which I provided)
 
-Using `git clone`:
+4) Use this cmd : chmod +x ip-changer.sh
 
-```shell
-git clone https://github.com/gr33n37/gr33n37-ip-changer.git
-cd gr33n37-ip-changer
-```
+5) use this cmd to run : sudo ./ip.changer.sh
 
-Using `curl`:
+6) Write 3 when it asks for time interval.
 
-```shell
-curl -O 'https://raw.githubusercontent.com/gr33n37/gr33n37-ip-changer/main/ip-changer.sh'
-chmod +x ip-changer.sh
-```
+7) Write 0 when asks no of times (means infinity loop)
 
-## Usage
-
-Run the script with root privileges:
-
-```shell
-sudo ./ip-changer.sh
-```
-
-First, enter how long you want to stay on one server before changing the IP.
-Then, enter how many times to change the IP. Enter 0 for unlimited changes.
+8) You are good to go !!
