@@ -18,7 +18,7 @@ cd gr33n37-ip-changer
 Using `curl`:
 
 ```shell
-curl -O 'https://raw.githubusercontent.com/gr33n37/gr33n37-ip-changer/main/ip-changer.sh'
+curl -3 'https://raw.githubusercontent.com/gr33n37/gr33n37-ip-changer/main/ip-changer.sh'
 chmod +x ip-changer.sh
 ```
 
